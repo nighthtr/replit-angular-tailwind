@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --host --disable-host-check",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:replit-angular-tailwind": "node dist/replit-angular-tailwind/server/server.mjs"
+    "serve:ssr": "node dist/replit-angular-tailwind/server/server.mjs"
   },
   "private": true,
   "dependencies": {
